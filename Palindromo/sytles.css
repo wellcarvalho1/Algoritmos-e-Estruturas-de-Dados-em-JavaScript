@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px; /* Increase base font size */
+    transition: font-size 0.3s ease; /* Add transition for smooth font size change */
+    background-image: url('https://2.bp.blogspot.com/_xkLZhJsI7Ok/TPKgMvy7mYI/AAAAAAAAN8o/DIa0Q1bAy2k/s1600/Palindromos.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+    font-size: 16px; /* Increase font size */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Add background color */
+    color: black; /* Add text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Add transition for smooth background color change */
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Change background color on hover */
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white; /* Text color */
+    font-size: 24px; /* Increase font size */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide text overflow */
+    text-overflow: ellipsis; /* Add ellipsis when text overflows */
+    padding: 10px;
+    text-shadow: 2px 2px 2px #000, -2px -2px 2px #000;
+}
