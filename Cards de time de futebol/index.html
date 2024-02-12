@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards do São Paulo FC</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Estatisticas do time</h1>
+    <main>
+      <div class="team-stats">
+        <p>TIME: <span id="team"></span></p>
+        <p>ESPORTE: <span id="sport"></span></p>
+        <p>ANO: <span id="year"></span></p>
+        <p>TÉCNICO: <span id="head-coach"></span></p>
+      </div>
+      <label class="options-label" for="players"
+        >Filtrar colegas de equipe:</label
+      >
+      <select name="players" id="players">
+        <option value="all">Todos Jogadores</option>
+        <option value="nickname">Apelidos</option>
+        <option value="forward">Posição Atacante</option>
+        <option value="midfielder">Posição Meio-Campista</option>
+        <option value="defender">Posição Defensor</option>
+        <option value="goalkeeper">Posição Goleiro</option>
+      </select>
+      <div class="cards" id="player-cards">
+        <div class="player-card">
+          <h2>Aldemir Ferreira</h2>
+          <p>Posição: Atacante</p>
+          <p>Número: 47</p>
+          <p>Apelido: Ferreirinha</p>
+        </div>
+        <div class="player-card">
+          <h2>Giuliano Galoppo</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 14</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>James Rodríguez</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 19</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Wellington Soares da Silva</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 27</p>
+          <p>Apelido: Wellington Rato</p>
+        </div>
+        <div class="player-card">
+          <h2>Robert Abel Arboleda Escobar</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 5</p>
+          <p>Apelido: Arbolenda</p>
+        </div>
+        <div class="player-card">
+          <h2>Nahuel Adolfo Ferraresi Hernández</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 3</p>
+          <p>Apelido: Ferraresi</p>
+        </div>
+        <div class="player-card">
+          <h2>Jonathan Calleri</h2>
+          <p>Posição: Atacante</p>
+          <p>Número: 9</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Márcio Rafael Ferreira de Souza</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 13</p>
+          <p>Apelido: Rafinha</p>
+        </div>
+        <div class="player-card">
+          <h2>Welington Damascena Santos</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 6</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>(Capitão) Alisson Euler de Freitas Castro</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 25</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Luciano da Rocha Neves</h2>
+          <p>Posição: Atacante</p>
+          <p>Número: 10</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Pablo Gonçalves Maia Fortunato</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 29</p>
+          <p>Apelido: Pablo Maia</p>
+        </div>
+        <div class="player-card">
+          <h2>Alan Javier Franco</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 28</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Rodrigo Nestor Bertalia</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 11</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Rafael Pires Monteiro</h2>
+          <p>Posição: Goleiro</p>
+          <p>Número: 23</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Diego Henrique Costa Barbosa</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 4</p>
+          <p>Apelido: Diego Costa</p>
+        </div>
+        <div class="player-card">
+          <h2>Lucas Rodrigues Moura da Silva</h2>
+          <p>Posição: Atacante</p>
+          <p>Número: 7</p>
+          <p>Apelido: Lucas Moura</p>
+        </div>
+        <div class="player-card">
+          <h2>Jandrei Chitolina Carniel</h2>
+          <p>Posição: Goleiro</p>
+          <p>Número: 93</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Patryck Lanza dos Reis</h2>
+          <p>Posição: Defensor</p>
+          <p>Número: 36</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Damián Josué Bobadilla Benítez</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 21</p>
+          <p>Apelido: Bobadilla</p>
+        </div>
+        <div class="player-card">
+          <h2>Luiz Gustavo Dias</h2>
+          <p>Posição: Meio-Campista</p>
+          <p>Número: 16</p>
+          <p>Apelido: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Young Navarro Moraes</h2>
+          <p>Posição: Goleiro</p>
+          <p>Número: 50</p>
+          <p>Apelido: N/A</p>
+        </div>
+      </div>
+    </main>
+    <footer>&copy; freeCodeCamp</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
